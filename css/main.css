@@ -1,0 +1,223 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	font-family: 'Open Sans', 'Helvetica Neue';
+}
+
+.bg {
+	position: fixed;
+	z-index: 0;
+	height: 100%;
+	width: 100%;
+	background: url('../images/grafitti_small.jpg');
+	background-size: cover;
+}
+
+.container {
+	margin-left: 30px;
+	margin-bottom: 60px;
+	padding-top: 30px;
+}
+
+.resume {
+	float: left;
+	position: relative;
+	z-index: 10;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	margin-bottom: 30px;
+	width: 800px;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+.title {
+	float: left;
+}
+
+.resume h1 {
+	display: inline-block;
+	color: rgb(51, 51, 51);
+	font-size: 41px;
+	margin: 0;
+}
+
+.resume h2 {
+	margin-top: -3px;
+	margin-left: 5px;
+	color: #ADBCC7;
+	font-weight: 100;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.contact {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	color: rgb(102, 116, 127);
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.contact span{
+	font-size: 12px;
+	position: relative;
+	top: 1px;
+	margin-right: 2px;
+}
+
+.summary {
+	float: left;
+	position: relative;
+	z-index: 10;
+	width: 100%;
+}
+
+.resume h3 {
+	color: #ADBCC7;
+	font-size: 23px;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin: 0;
+	margin-top: 40px;
+	margin-bottom: -5px;
+}
+
+.resume p {
+	color: #66747F;
+	font-size: 13px;
+}
+
+.education, .experience {
+	width: 100%;
+	float: left;
+}
+
+.block {
+	width: 100%;
+	float: left;
+	margin-top: 15px;
+}
+
+.block-left {
+	width: 250px;
+	float: left;
+}
+
+.block-left-title {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.block-left-caption {
+	font-size: 13px;
+	color: rgb(102, 116, 127);
+	margin-top: 5px;
+}
+
+.block-right {
+	width: calc(100% - 250px);
+	float: left;
+}
+
+.block-right-title {
+	font-size: 14px;
+}
+
+.block-right-caption {
+	font-size: 13px;
+	color: rgb(102, 116, 127);
+	margin-top: 5px;
+}
+
+.skills {
+	width: 100%;
+	float: left;
+}
+
+.skills h3 {
+	margin-bottom: 10px;
+}
+
+.skill-column {
+	width: 33%;
+	float: left;
+}
+
+.skill {
+	width: 100%;
+	float: left;
+	color: rgb(102, 116, 127);
+	font-size: 13px;
+	margin-bottom: 3px;
+}
+
+.skill-title {
+	width: 110px;
+	float: left;
+}
+
+.skill-starts {
+	float: left;
+}
+
+.star-active {
+	color: #444;
+}
+
+.star-disabled {
+	color: #999;
+}
+
+.side-projects {
+	position: relative;
+	z-index: 10;
+	width: 350px;
+	float: left;
+	margin-left: 5px;
+}
+
+.side-project {
+	display: none;
+	width: 100%;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+	overflow: auto;	
+}
+
+.side-project h3 {
+	color: #ADBCC7;
+	font-size: 23px;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin: 0;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: -5px;
+}
+
+.side-project p {
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #66747F;
+	font-size: 13px;
+}
+
+.side-project a {
+	float: right;
+	display: block;
+	text-decoration: none;
+	color: #ADBCC7;
+	margin-right: 15px;
+	text-transform: uppercase;
+}
+
+.side-project a:hover {
+	text-decoration: underline;
+}
